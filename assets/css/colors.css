@@ -1,0 +1,21 @@
+/* COLORES PRINCIPALES */
+.main-color {
+    color: #f5c6cb;
+}
+
+.bg-main-color {
+    background-color: #f5c6cb ;
+}
+
+/* COLORES SECUNDARIOS */
+.secondary-color {
+    color: #4B7F5B;
+}
+
+.bg-secondary-color {
+    background-color: #4B7F5B;
+}
+
+.bg-secondary-dark {
+    background-color: #37523f;
+}

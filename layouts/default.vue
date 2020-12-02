@@ -1,16 +1,20 @@
 <template>
   <div>
     <Navbar />
-    <Nuxt />
+    <Nuxt id="main-content"/>
+    <Footer />
+
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
-    Navbar
+    Navbar,
+    Footer,
   }
 }
 </script>
@@ -33,5 +37,9 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+#main-content {
+  min-height: 100vh;
 }
 </style>
